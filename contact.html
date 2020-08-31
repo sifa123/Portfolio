@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body{
+  background-color: black;
+}
+
+*{
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'josefin Sans',sans-serif;
+}
+
+
+.wrapper{
+ 
+  display: flex;
+  position: relative;
+margin-top: -800px;
+
+}
+.wrapper.sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background:#4b4276;
+  padding: 30px 0;
+  color: white;
+
+}
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1 px solid rgba(0,0,0,0.05);
+  border-top: 1 px solid rgba(225,225,225,0.05);
+
+}
+.wrapper .sidebar ul li a{
+  color: white;
+  display: block;}
+.wrapper .sidebar ul li a:hover{
+  color :#555;
+
+ }
+.wrapper .sidebar .social_media{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.wrapper .sidebar .social_media ul{
+  margin:0px;
+  padding: 0px;
+  text-align: left;
+}
+.wrapper .sidebar .social_media ul li{
+  display: inline-block;
+  width: 20px;
+  height: 50px;
+  margin:0px 10px;
+  border-radius: 70%;
+  padding-right: 10px;
+  font-size: 20px;
+padding-top: 110px;
+}
+.wrapper .sidebar .social-icons ul li a{
+  font-size: 50px;
+
+}
+
+
+
+.sifa{
+  left: 40%;
+  top: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+color: white;
+
+  text-align: center;
+
+}
+
+
+.contact-title{
+  color: blue;
+  transition: all 4s ease-in-out;
+right:40%;
+  top: 33%;
+  font-size: 25px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+
+}
+* {
+  box-sizing: border-box;
+
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid red;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+
+input[type=submit] {
+  background-color: olive;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: brown;
+}
+
+.container {
+  border-radius: 5px;
+ 
+  padding: 10px;
+}
+
+.col-25 {
+  float: right;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+.col-75 {
+  float: right;
+
+  width: 75%;
+  margin-top: 6px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="sifa">
+<h1 >Contact Me
+..................................................
+</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="contact-title">
+  <h2 style="padding: 30px;">Let's Talk</h2>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" style="background-color:#C0C0C0;" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+    
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" style="background-color:#C0C0C0;" placeholder="Your last name..">
+      </div>
+    </div>
+    
+    <div class="row">
+    
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;background-color:#C0C0C0;"></textarea>
+      </div>
+    </div>
+    <center>
+    <div class="row">
+      <br>
+      <input type="submit" value="Send Message">
+    </div>
+  </center>
+  </form>
+</div>
+<br><br><br>
+<center>
+<i class="fa fa-map-marker" style="font-size:45px;color:blue;"><p style="color: white;font-size: 20px;">Dhaka,Bangladesh</p></i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-phone" style="font-size:45px;color:blue"><p style="color: white;font-size: 20px;">+8801.........</p></i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-envelope" style="font-size:45px;color:blue"><p style="color: white;font-size: 20px;">s********@gmail.com</p></i>
+<br><br>
+</center>
+  
+<div class="wrapper">
+<div class="sidebar"><ul>
+<li><a><img src="Sifa (3).jpg" style="width: 40%;height: 70%;position: center"></a></li>
+  <li><a href="index.html">HOME</a></li>
+ <li> <a href="about.html">ABOUT ME</a></li>
+  <li><a href="resume.html">RESUME</a></li>
+   <li><a href="portfolio.html">PORTFOLIO</a></li>
+   <li><a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT ME</a></li>
+</ul>
+<div class="social_media">
+  <ul>
+ <li> <a href="#"><i class="fa fa-facebook-official"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    </ul>
+</div>
+</div></div>
+
+
+
+
+
+
+
+
+
+</body>
+</html> 

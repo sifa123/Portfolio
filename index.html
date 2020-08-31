@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<style>
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'josefin Sans',sans-serif;
+}
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+
+
+}
+.wrapper.sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background:#4b4276;
+  padding: 30px 0;
+  color: white;
+ 
+}
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1 px solid rgba(0,0,0,0.05);
+  border-top: 1 px solid rgba(225,225,225,0.05);
+}
+.wrapper .sidebar ul li a{
+  color: white;
+  display: block;}
+.wrapper .sidebar ul li a:hover{
+  color :#555;
+
+ }
+.wrapper .sidebar .social_media{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.wrapper .sidebar .social_media ul{
+  margin:0px;
+  padding: 0px;
+  text-align: left;
+}
+.wrapper .sidebar .social_media ul li{
+  display: inline-block;
+  width: 20px;
+  height: 50px;
+  margin:0px 10px;
+  border-radius: 70%;
+  padding-right: 10px;
+  font-size: 20px;
+padding-top: 110px;
+}
+.wrapper .sidebar .social-icons ul li a{
+  font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.load{
+  animation: slide 2s;
+}
+.slider{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ height: auto;
+  animation: slide 40s infinite;
+}
+.content{
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+   background-color: rgba(0,0,0,0.5);
+
+
+}
+
+.principal{
+  left: 50%;
+  top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+  
+  text-align: center;
+}
+@keyframes slide{
+  0%{
+background-image: url('pic 1.jpg');
+  }
+  20%{
+background-image: url('pic 3.jpg');
+  }
+  20.01%{
+    background-image: url('pic 2.jpg');
+  }
+  40%{
+    background-image: url('pic 4.jpg');
+  }
+  40.01%{
+    background-image: url('pic 5.jpg');
+  }
+  60%{
+    background-image: url('pic 6.jpg');
+  }
+  60.01%{
+    background-image: url('pic 7.jpg');
+  }
+  80%{
+    background-image: url('pic 8.jpg');
+  }
+  80.01%{
+    background-image: url('pic 9.jpg');
+  }
+  100%{
+    background-image: url('pic 10.jpg');
+  }
+  
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+  <div class="slider">
+
+ <div class="load">
+ </div>
+      
+    
+
+
+
+
+
+  <div class="content"> 
+<div class="wrapper">
+<div class="sidebar"><ul>
+<li><a><img src="Sifa (3).jpg" style="width: 30%;height: 30%;position: center"></a></li>
+  <li><a href="index.html">HOME</a></li>
+ <li> <a  href="about.html">ABOUT ME</a></li>
+  <li><a  href="resume.html">RESUME</a></li>
+   <li><a href="portfolio.html">PORTFOLIO</a></li>
+   <li><a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT ME</a></li>
+</ul>
+<div class="social_media">
+  <ul>
+ <li> <a href="#"><i class="fa fa-facebook-official"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    </ul>
+</div>
+</div></div>
+
+<div class="principal">    
+        <h1>I am Sefat Siddiquea</h1>
+        &nbsp;
+        <h2>Studying in Computer Science and Engineering at PSTU</h2>
+      </div>
+    
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
